@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "go-challenges",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "cwd": "${workspaceFolder}/go",
+      "program": "${workspaceRoot}/go/main.go",
+      "args": [
+        "-test.run",
+        "TestRestService",
+        "go.testFlags",
+        "-v",
+        "-args",
+        "-test.v"
+      ]
+    },
+    {
+      "name": "py-challenges",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/py/challenges",
+      "program": "${workspaceFolder}/py/challenges/main.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
