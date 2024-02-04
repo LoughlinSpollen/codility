@@ -2,7 +2,7 @@
     "python.envFile": "~/.pyenv",
     "python.testing.pytestArgs": [
         // "py"
-        "py/challenges/min_max_division.py",
+        "py/challenges/nailing_planks.py",
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
