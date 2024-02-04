@@ -68,9 +68,6 @@ import unittest
 # each element of arrays A, B and C is an integer within the range [1..2*M];
 # A[K] ≤ B[K].
 
-N_RANGE = [1, 1000000000]
-M_RANGE = [1, 1000000000]
-
 def solution(A, B, C):
     start = A
     end = B

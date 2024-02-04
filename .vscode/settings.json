@@ -2,7 +2,7 @@
     "python.envFile": "~/.pyenv",
     "python.testing.pytestArgs": [
         // "py"
-        "py/challenges/nailing_planks.py",
+        "py/challenges/passing_cars.py",
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
