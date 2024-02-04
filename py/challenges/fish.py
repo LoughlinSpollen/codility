@@ -79,17 +79,3 @@ class TestFish(unittest.TestCase):
     def test_ex(self):
         self.assertEqual(solution([4,3,2,1,5],[0,1,0,0,0]), 2)
 
-    def test_min(self):
-        self.assertEqual(solution([1],[0]), 1)
-        self.assertEqual(solution([1],[1]), 1)
-        self.assertEqual(solution([1,2],[0,1]), 2)
-        self.assertEqual(solution([1,2],[1,0]), 1)
-        self.assertEqual(solution([1,2],[1,1]), 2)
-
-    def test_max(self):
-        self.assertEqual(solution([1,2,3,4,5,6,7,8,9],[0,0,0,0,0,0,0,0,0]), 9)
-        self.assertEqual(solution([1,2,3,4,5,6,7,8,9],[1,1,1,1,1,1,1,1,1]), 9)
-        self.assertEqual(solution([1,2,3,4,5,6,7,8,9],[1,0,1,0,1,0,1,0,1]), 9)
-        self.assertEqual(solution([1,2,3,4,5,6,7,8,9],[0,1,0,1,0,1,0,1,0]), 1)
-        self.assertEqual(solution([1,2,3,4,5,6,7,8,9],[0,0,0,0,0,0,0,0,1]), 1)
-

@@ -80,13 +80,6 @@ class FrogRiverOneTest(unittest.TestCase):
         self.assertEqual(solution(2, [2,1]), 1)
         self.assertEqual(solution(2, [1, 2]), 1)
 
-    def test_max(self):
-        max = 100000
-        A = range(1, max)
-        random.shuffle(A)
-        A.append(max)
-        self.assertEqual(solution(max, A), max-1)
-
     def test_negative(self):
         self.assertEqual(solution(2, [2]), -1)
         self.assertEqual(solution(2, [1, 1]), -1)

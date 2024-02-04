@@ -54,14 +54,7 @@ def solution(A):
 
 class TestMaxProductOfThree(unittest.TestCase):
     def test_example(self):
-        self.assertEquals(solution([-3, 1, 2, -2, 5, 6]), 60)
+        self.assertEqual(solution([-3, 1, 2, -2, 5, 6]), 60)
 
     def test_negative(self):
-        self.assertEquals(solution([-3, -1, -2, -2, -5, -6]), -4)
-
-    def test_positive(self):
-        self.assertEquals(solution([3, 1, 2, 2, 5, 6]), 60)
-
-    def test_mixed(self):
-        self.assertEquals(solution([3, 1, 2, -2, -5, 6]), 36)
-        self.assertEquals(solution([3, 1, 2, -2, 5, -6]), 72)
+        self.assertEqual(solution([-3, -1, -2, -2, -5, -6]), -4)

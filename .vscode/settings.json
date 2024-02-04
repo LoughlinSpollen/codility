@@ -1,8 +1,7 @@
 {
     "python.envFile": "~/.pyenv",
     "python.testing.pytestArgs": [
-        // "py"
-        "py/challenges/tape_equilibrium.py",
+        "py/challenges/missing_integer.py",
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,

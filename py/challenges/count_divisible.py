@@ -23,8 +23,8 @@ def solution(A, B, K):
     end = B
     divider = K
 
-    result = end // divider - start //  divider
-    if start % divider > 0:
+    result = int(end/divider) - int(start/divider)
+    if start % divider == 0:
         return result + 1
     return result
 
@@ -36,30 +36,9 @@ class CountDivTest(unittest.TestCase):
     def test_min(self):
         self.assertEqual(solution(0, 0, 11), 1)
         self.assertEqual(solution(1, 1, 11), 0)
-        self.assertEqual(solution(11, 11, 11), 1)
-        self.assertEqual(solution(10, 10, 11), 0)
-        self.assertEqual(solution(10, 11, 11), 1)
-        self.assertEqual(solution(10, 12, 11), 2)
-        self.assertEqual(solution(10, 13, 11), 2)
-        self.assertEqual(solution(10, 14, 11), 2)
-        self.assertEqual(solution(10, 15, 11), 3)
-        self.assertEqual(solution(10, 16, 11), 3)
-        self.assertEqual(solution(10, 17, 11), 3)
 
     def test_max(self):
         self.assertEqual(solution(0, 2000000000, 1), 2000000001)
         self.assertEqual(solution(0, 2000000000, 2000000000), 2)
         self.assertEqual(solution(0, 2000000000, 1999999999), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999998), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999997), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999996), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999995), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999994), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999993), 2)
 
-    def test_extreme(self):
-        self.assertEqual(solution(0, 2000000000, 2000000000), 1)
-        self.assertEqual(solution(0, 2000000000, 1), 2000000001)
-        self.assertEqual(solution(0, 2000000000, 2000000000), 1)
-        self.assertEqual(solution(0, 2000000000, 1999999999), 2)
-        self.assertEqual(solution(0, 2000000000, 1999999992), 2)

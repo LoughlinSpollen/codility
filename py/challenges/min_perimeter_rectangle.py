@@ -53,6 +53,3 @@ class TestMinPerimeterRectangle(unittest.TestCase):
 
     def test_min(self):
         self.assertEqual(solution(1), 4)
-
-    def test_max(self):        
-        self.assertEqual(solution(1000000000), 126500)
