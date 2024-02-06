@@ -5,16 +5,12 @@
       "name": "go-challenges",
       "type": "go",
       "request": "launch",
-      "mode": "auto",
+      "mode": "test",
       "cwd": "${workspaceFolder}/go",
-      "program": "${workspaceRoot}/go/main.go",
+      "showLog": true,
       "args": [
-        "-test.run",
-        "TestRestService",
-        "go.testFlags",
         "-v",
-        "-args",
-        "-test.v"
+        "./..."
       ]
     },
     {
