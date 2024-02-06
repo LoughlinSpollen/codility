@@ -1,7 +1,7 @@
 {
     "python.envFile": "~/.pyenv",
     "python.testing.pytestArgs": [
-        "py/challenges/missing_integer.py",
+        "py/challenges/count_factors.py",
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,

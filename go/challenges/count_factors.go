@@ -26,7 +26,7 @@ func SolutionCountFactors(N int) int {
 		}
 	}
 
-	if num%int(math.Sqrt(float64(num))) == 0 {
+	if math.Mod(float64(num), math.Sqrt(float64(num))) == 0 {
 		count -= 1
 	}
 	return count

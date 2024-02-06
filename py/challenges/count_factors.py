@@ -19,8 +19,8 @@ import math
 def solution(N):
     num = N
     count = 0      
-    sq_root = int(math.sqrt(num))
-    for i in range(1, sq_root+1):
+    sqRoot = int(math.sqrt(num))
+    for i in range(1, sqRoot+1):
         if num % i == 0:
             count += 2
     
