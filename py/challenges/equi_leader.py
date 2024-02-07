@@ -46,12 +46,11 @@ import unittest
 
 
 def solution(A):
-
     arr = A
     if len(arr) < 2:
         return len(arr)
 
-    def most_common_val(arr):
+    def most_common_val(arr) -> int:
         most_common_val = None
         # occurance count of values
         map = dict()

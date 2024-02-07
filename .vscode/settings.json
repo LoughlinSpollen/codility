@@ -1,7 +1,7 @@
 {
     "python.envFile": "~/.pyenv",
     "python.testing.pytestArgs": [
-        "py/challenges/count_factors.py",
+        "py/challenges/flags.py",
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,

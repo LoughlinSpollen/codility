@@ -82,7 +82,6 @@ def solution(A):
         if current_val > prev_val and current_val > next_val:
             peaks.append(i)
             distance += (current_val - prev_val)
-        current_val = next_val
 
     peak_count = len(peaks)
     if peak_count > 1:
