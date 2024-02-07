@@ -44,5 +44,4 @@ func TestFlags(t *testing.T) {
 
 	r = challenges.SolutionFlags([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})
 	assert.Equal(t, 0, r, fmt.Sprintf("Expected 0, but got %v", r))
-
 }
