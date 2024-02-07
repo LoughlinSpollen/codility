@@ -15,7 +15,7 @@ package challenges
 //  (5, 6), with a perimeter of 22.
 //  Write a function:
 
-//  def solution(N)
+//  func solution(N int) int
 
 //  that, given an integer N, returns the minimal perimeter of any rectangle whose area is exactly equal to N.
 
