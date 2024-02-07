@@ -49,10 +49,6 @@ import unittest
 # each element of array A is an integer within the range [−10,000..10,000].
 
 
-
-N_RANGE = [3, 100000]
-EL_RANGE = [-10000, 10000]
-
 def solution(A):
     intArr = A
     size = len(intArr)

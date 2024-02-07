@@ -9,7 +9,7 @@ package challenges
 //
 // Write a function:
 //
-// def solution(S string) bool
+// func solution(S string) bool
 //
 // that, given a string S consisting of N characters, returns 1 if S is properly nested and 0 otherwise.
 //
