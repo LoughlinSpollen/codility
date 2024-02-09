@@ -28,7 +28,7 @@ package challenges
 //  P = 4, difference = |10 − 3| = 7
 //  Write a function:
 
-//  def solution(A)
+//  func solution(A []int) int
 
 //  that, given a non-empty array A of N integers, returns the minimal difference that can be achieved.
 

@@ -21,7 +21,7 @@ package challenges
 
 //  Write a function:
 
-//  def solution(A)
+//  func solution(A []int) int
 
 //  that, given a non-empty array A of N integers, returns the number of pairs of passing cars.
 

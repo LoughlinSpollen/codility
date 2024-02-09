@@ -16,7 +16,7 @@ import "sort"
 
 // Write a function:
 
-// def solution(A)
+// func solution(A []int) int
 
 // that, given an array A consisting of N integers, returns 1 if there
 // exists a triangular triplet for this array and returns 0 otherwise.

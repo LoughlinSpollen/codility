@@ -12,7 +12,7 @@ package challenges
 
 //  Write a function:
 
-//  def solution(H)
+//  func solution(A []int) int
 
 //  that, given an array H of N positive integers specifying the height of the wall,
 //  returns the minimum number of blocks needed to build it.
